@@ -51,5 +51,21 @@ namespace Fisher.Bookstore.Api.Controllers
             {
                 return Ok(db.Books);
             }
+
+        [HttpGet("{id}")]
+        public IActionResult GetBook(int id)
+        {
+            // try to find that book
+            var book = db.Books.FirstOrDefault(b => b.Id == id);
+
+            //didnt find that book? alright lets do a 404
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            // return the book inside http 200 ok
+            return Ok(book);
+        }
     }
 }
