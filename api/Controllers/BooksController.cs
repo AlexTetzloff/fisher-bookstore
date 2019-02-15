@@ -86,7 +86,7 @@ namespace Fisher.Bookstore.Api.Controllers
         public IActionResult Put(int id, [FromBody]Book book)
         {
             // validate incoming book
-            if (book ==null || book.Id != id)
+            if (book == null || book.Id != id)
             {
                 return BadRequest();
             }
@@ -100,6 +100,8 @@ namespace Fisher.Bookstore.Api.Controllers
 
             bookToEdit.Title = book.Title;
             bookToEdit.ISBN = book.ISBN;
+            bookToEdit.Author = book.Author;
+            bookToEdit.publicationDate = book.publicationDate;
 
             db.Books.Update(bookToEdit);
             db.SaveChanges();
