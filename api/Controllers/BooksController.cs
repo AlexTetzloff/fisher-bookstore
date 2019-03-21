@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Fisher.Bookstore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Fisher.Bookstore.Api.Data;
 
 namespace Fisher.Bookstore.Api.Controllers
 {
-    [Route("api/books")]
+    [Route("api/Books")]
     [ApiController]
     public class BooksController : ControllerBase
     {
@@ -101,7 +102,8 @@ namespace Fisher.Bookstore.Api.Controllers
             bookToEdit.Title = book.Title;
             bookToEdit.ISBN = book.ISBN;
             bookToEdit.Author = book.Author;
-            bookToEdit.publicationDate = book.publicationDate;
+            bookToEdit.PublishDate = book.PublishDate;
+            bookToEdit.Publisher = book.Publisher;
 
             db.Books.Update(bookToEdit);
             db.SaveChanges();
