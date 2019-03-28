@@ -1,0 +1,17 @@
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.deps.json
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.runtimeconfig.json
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.runtimeconfig.dev.json
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.dll
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.pdb
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/obj/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.csprojAssemblyReference.cache
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/obj/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.csproj.CoreCompileInputs.cache
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/obj/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.AssemblyInfoInputs.cache
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/obj/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.AssemblyInfo.cs
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/obj/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.dll
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/obj/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.pdb
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/Fisher.Bookstore.Api.dll
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/bin/Debug/netcoreapp2.2/Fisher.Bookstore.Api.pdb
+/Users/alextetzloff/Desktop/AMIS3610/fisher-bookstore/tests/obj/Debug/netcoreapp2.2/Fisher.Bookstore.Api.Tests.csproj.CopyComplete

@@ -8,7 +8,7 @@ namespace Fisher.Bookstore.Models
 
         public string Title {get; set;}
 
-        public string Author {get; set;}
+        public Author Author {get; set;}
 
         public string ISBN {get; set;}
 
@@ -16,5 +16,17 @@ namespace Fisher.Bookstore.Models
 
         public string Publisher { get; set; }
 
+        public void ChangePublicationDate(DateTime dateTime) => this.PublishDate = dateTime;
+
+        public void ChangeAuthor(Author newAuthor)
+        {
+            this.Author = newAuthor;
+        }
+
+        public void ChangeTitle(string newTitle)
+        {
+            this.Title = newTitle;
+        }
     }
+    
 }
