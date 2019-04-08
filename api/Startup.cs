@@ -33,7 +33,7 @@ namespace Fisher.Bookstore.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<BookstoreContext>(options => 
-            options.UseNpgsql(Configuration.GetConnectionString("BookstoreConnection")));
+            options.UseNpgsql(Configuration.GetConnectionString("BookstoreContext")));
             
             //Add this for identity
             services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -54,8 +54,7 @@ namespace Fisher.Bookstore.Api
                     ValidateLifetime = true,
                     ValidIssuer = Configuration["JWTConfiguration:Issuer"],
                     ValidAudience = Configuration["JWTConfiguration:Audience"],
-                    IssuerSigningKey = new
-                    SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWTConfiguration.Key"])
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWTConfiguration.Key"])
                     )
                 };
             });
