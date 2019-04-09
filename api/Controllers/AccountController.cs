@@ -4,6 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Fisher.Bookstore.Api.Data;
 using Fisher.Bookstore.Models;
@@ -102,6 +103,13 @@ namespace Fisher.Bookstore.Api.Controllers
             SymmetricSecurityKey(signingKey), SecurityAlgorithms.HmacSha256));
 
             return token;
+        }
+
+        [Authorize]
+        [HttpGet("profile")]
+        public IActionResult Profile()
+        {
+            return Ok(User.Identity.Name);
         }
     }
 }
